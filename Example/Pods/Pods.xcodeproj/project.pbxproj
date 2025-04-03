@@ -11,6 +11,7 @@
 		376F77D431F50384D26B84DDE6087ABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		77A1836B3B366FCC8F93BE8638B367E3 /* Pods-HoonTestCocoapod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DE535B6BDC413D26BE1FBE7DEE6A6 /* Pods-HoonTestCocoapod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F24878055E2C648DB01FDD2E513E3B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		84B0B0BB2D9E3F9300786E11 /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0B0BA2D9E3F9300786E11 /* MyCustomView.swift */; };
 		A1265676CE3D998CB47E3BA43BD1CD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C18EF8CFC0FD82607585945EA9A97F6D /* Pods-HoonTestCocoapod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFFA1E46D3D61E5F22E853E84CA3CA6 /* Pods-HoonTestCocoapod_Tests-dummy.m */; };
 		C7A679A68A1A79C4AF1983FF8836D2BE /* Pods-HoonTestCocoapod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 049126E028E6D07C6C121C98615F7F01 /* Pods-HoonTestCocoapod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +46,7 @@
 		142F0978B8A0F6607904F9084ABF7D3D /* Pods-HoonTestCocoapod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoonTestCocoapod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		16DEED2B72AAA9A31741FC9422354D53 /* Pods-HoonTestCocoapod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HoonTestCocoapod_Example"; path = Pods_HoonTestCocoapod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D67389DB0718D010EA48E8041D3B65C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HoonTestCocoapod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		23722174AC2C9BE175AED888C9E85058 /* HoonTestCocoapod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HoonTestCocoapod; path = HoonTestCocoapod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23722174AC2C9BE175AED888C9E85058 /* HoonTestCocoapod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoonTestCocoapod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AB70543861C8676E72C912A1DCD142 /* Pods-HoonTestCocoapod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HoonTestCocoapod_Tests"; path = Pods_HoonTestCocoapod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AB19D6E2ADE237363A3024AAD7336E /* HoonTestCocoapod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HoonTestCocoapod-umbrella.h"; sourceTree = "<group>"; };
 		3F3E3025E658D7EDD1E8ECC555C5F18D /* HoonTestCocoapod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HoonTestCocoapod.release.xcconfig; sourceTree = "<group>"; };
@@ -58,15 +59,16 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76B1832768D84636CE3E4C38FA36FDEB /* HoonTestCocoapod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HoonTestCocoapod-Info.plist"; sourceTree = "<group>"; };
 		78F45D2568ABAE901B32BB49BF91A0C6 /* Pods-HoonTestCocoapod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoonTestCocoapod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		84B0B0BA2D9E3F9300786E11 /* MyCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCustomView.swift; path = HoonTestCocoapod/Classes/MyCustomView.swift; sourceTree = "<group>"; };
 		8CA713D1A10DD18C40193368EE833AC6 /* Pods-HoonTestCocoapod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoonTestCocoapod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		95DFFA9A32888CF1382D5EDAF4817CF9 /* Pods-HoonTestCocoapod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoonTestCocoapod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9BFFA1E46D3D61E5F22E853E84CA3CA6 /* Pods-HoonTestCocoapod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoonTestCocoapod_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A55D211930F3EC79427C314C896885F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A8D1753DDBA16C6277F6F91922AF00C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A55D211930F3EC79427C314C896885F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A8D1753DDBA16C6277F6F91922AF00C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B468C40811CAA3A29347E094A1C868FF /* HoonTestCocoapod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HoonTestCocoapod.modulemap; sourceTree = "<group>"; };
 		D9E17BB0BF8E075FCA75D8D191FE855D /* Pods-HoonTestCocoapod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoonTestCocoapod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DB29788788D4CF7AE0CD438C3D8808BD /* HoonTestCocoapod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HoonTestCocoapod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB29788788D4CF7AE0CD438C3D8808BD /* HoonTestCocoapod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HoonTestCocoapod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6414EFC67948AFC86B155AE0F5A9026 /* HoonTestCocoapod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HoonTestCocoapod.debug.xcconfig; sourceTree = "<group>"; };
 		F24DE535B6BDC413D26BE1FBE7DEE6A6 /* Pods-HoonTestCocoapod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoonTestCocoapod_Example-umbrella.h"; sourceTree = "<group>"; };
 		F842EB207510BBBBE30E63928C8CCD39 /* Pods-HoonTestCocoapod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoonTestCocoapod_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		20FC2B30745EEEC1E317D43D9E4E40A0 /* HoonTestCocoapod */ = {
 			isa = PBXGroup;
 			children = (
+				84B0B0BA2D9E3F9300786E11 /* MyCustomView.swift */,
 				1D67389DB0718D010EA48E8041D3B65C /* ReplaceMe.swift */,
 				E2A1F1C26D07B34D61640F33868DA24A /* Pod */,
 				AE18D12ED091F5EB4F603C3B46C3E775 /* Support Files */,
@@ -114,7 +117,7 @@
 		3EC864A0011BC24B4CEAC371C06955FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23722174AC2C9BE175AED888C9E85058 /* HoonTestCocoapod */,
+				23722174AC2C9BE175AED888C9E85058 /* HoonTestCocoapod.framework */,
 				16DEED2B72AAA9A31741FC9422354D53 /* Pods-HoonTestCocoapod_Example */,
 				24AB70543861C8676E72C912A1DCD142 /* Pods-HoonTestCocoapod_Tests */,
 			);
@@ -306,7 +309,7 @@
 			);
 			name = HoonTestCocoapod;
 			productName = HoonTestCocoapod;
-			productReference = 23722174AC2C9BE175AED888C9E85058 /* HoonTestCocoapod */;
+			productReference = 23722174AC2C9BE175AED888C9E85058 /* HoonTestCocoapod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,7 +330,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
 			productRefGroup = 3EC864A0011BC24B4CEAC371C06955FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -369,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F397903CF669F74ACFA7CBCAEE9C5EA6 /* HoonTestCocoapod-dummy.m in Sources */,
+				84B0B0BB2D9E3F9300786E11 /* MyCustomView.swift in Sources */,
 				CBCF0FAC07893E67D1AB2DBDE23DF19C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,7 +426,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HoonTestCocoapod/HoonTestCocoapod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HoonTestCocoapod/HoonTestCocoapod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HoonTestCocoapod/HoonTestCocoapod.modulemap";
 				PRODUCT_MODULE_NAME = HoonTestCocoapod;
@@ -494,8 +497,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -583,7 +585,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HoonTestCocoapod/HoonTestCocoapod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HoonTestCocoapod/HoonTestCocoapod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HoonTestCocoapod/HoonTestCocoapod.modulemap";
 				PRODUCT_MODULE_NAME = HoonTestCocoapod;
