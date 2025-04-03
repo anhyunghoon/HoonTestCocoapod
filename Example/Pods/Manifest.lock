@@ -1,0 +1,16 @@
+PODS:
+  - HoonTestCocoapod (0.1.0)
+
+DEPENDENCIES:
+  - HoonTestCocoapod (from `../`)
+
+EXTERNAL SOURCES:
+  HoonTestCocoapod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HoonTestCocoapod: 3f5ae359c96e468b82548fd0a0711e14aa79aade
+
+PODFILE CHECKSUM: cfe3abaf1412cf3899b5b3a95bdaaf1174f3e47b
+
+COCOAPODS: 1.15.2

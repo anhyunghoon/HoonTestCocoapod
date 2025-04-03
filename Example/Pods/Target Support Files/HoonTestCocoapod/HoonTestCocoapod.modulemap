@@ -1,0 +1,6 @@
+framework module HoonTestCocoapod {
+  umbrella header "HoonTestCocoapod-umbrella.h"
+
+  export *
+  module * { export * }
+}
